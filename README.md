@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-● 🔭 I'm currently working on Artificial Intelligence.<br><br>● 🌱 I'm currently learning Data Analytics .<br><br>● 👯🏻‍♀️ I'm looking to collaborate on python and AI-powered projects.<br><br>● 💬 Ask me about Python, Machine Learning, Prompt engineering.<br><br>● 🗺 How to reach me archishivhare18@gmail.com
+● 🔭 I'm currently working on Artificial Intelligence, Machine learning and Data Analysis.<br><br>● 🌱 I'm currently learning Data Analytics .<br><br>● 👯🏻‍♀️ I'm looking to collaborate on python and AI-powered projects.<br><br>● 💬 Ask me about Python, Machine Learning, Prompt engineering.<br><br>● 🗺 How to reach me archishivhare18@gmail.com
 
 
 ## 🌐 Socials:
