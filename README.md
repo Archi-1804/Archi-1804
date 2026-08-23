@@ -155,7 +155,7 @@ Long term, **AI Engineering** is one of the directions I'm considering for my ca
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8567F,100:F7B7A3&height=2&width=1000" width="100%"/>
 
-## 📈 GitHub Analytics
+## 📊 Contributions & Activity
 
 <div align="center">
 
@@ -167,13 +167,11 @@ Long term, **AI Engineering** is one of the directions I'm considering for my ca
 <img src="https://img.shields.io/github/followers/Archi-1804?label=Followers&style=for-the-badge&color=E8567F&labelColor=A94471&logo=github&logoColor=FFF8F5"/>
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FArchi-1804&label=Public+Gists&query=%24.public_gists&color=C9A227&style=for-the-badge&logo=github&logoColor=FFF8F5&labelColor=A94471"/>
 
-</div>
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8567F,100:F7B7A3&height=2&width=1000" width="100%"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,js,react,fastapi,mysql&theme=light" height="42"/>
 
-## 🐍 Contribution Snake
-
-<div align="center">
+<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:E8567F,50:A94471,100:C9A227&height=90&section=header&text=365%20Days%20of%20Commits&fontSize=22&fontColor=FFF8F5&fontAlignY=55" width="70%"/>
 
@@ -189,7 +187,7 @@ Long term, **AI Engineering** is one of the directions I'm considering for my ca
 
 <br/>
 
-<sub>⚠️ Needs a one-time setup below before this renders — see <a href="#-one-time-setup-contribution-snake">"One-time setup."</a></sub>
+<sub>⚠️ The snake needs a one-time setup before this renders — see <a href="#-one-time-setup-contribution-snake">"One-time setup."</a></sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8567F,100:F7B7A3&height=2&width=1000" width="100%"/>
 
@@ -252,7 +250,7 @@ jobs:
         with:
           github_user_name: Archi-1804
           outputs: |
-            dist/snake.svg?color_snake=E8567F,A94471,C9A227&color_dots=FCEAF0,F7B7A3,E8567F,A94471,C9A227
+            dist/snake.svg?color_snake=%23E8567F&color_dots=%23FCEAF0,%23F7B7A3,%23E8567F,%23A94471,%23C9A227
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
