@@ -171,23 +171,7 @@ Long term, **AI Engineering** is one of the directions I'm considering for my ca
 
 <img src="https://skillicons.dev/icons?i=python,cpp,js,react,fastapi,mysql&theme=light" height="42"/>
 
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:E8567F,50:A94471,100:C9A227&height=90&section=header&text=365%20Days%20of%20Commits&fontSize=22&fontColor=FFF8F5&fontAlignY=55" width="70%"/>
-
-<br/>
-
-<sub>Every square below is a real day of building — no filler, no gaps faked.</sub>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Archi-1804/Archi-1804/output/snake.svg" width="90%"/>
-
 </div>
-
-<br/>
-
-<sub>⚠️ The snake needs a one-time setup before this renders — see <a href="#-one-time-setup-contribution-snake">"One-time setup."</a></sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8567F,100:F7B7A3&height=2&width=1000" width="100%"/>
 
@@ -218,48 +202,3 @@ Long term, **AI Engineering** is one of the directions I'm considering for my ca
 <div align="center">
 <sub><b>Building</b> · <b>Learning</b> · <b>Exploring</b> · <b>Improving</b></sub>
 </div>
-
-<br/>
-
-<details>
-<summary><h3 id="-one-time-setup-contribution-snake">⚙️ One-time setup — Contribution Snake</h3></summary>
-
-This is the one section that needs a quick one-time setup, because the snake has to be generated inside your own repo — there's no live public service for it to break, which also means once it's set up it can't fail the way the other cards did.
-
-1. **Enable write access first** (this is the step that trips people up): go to `Archi-1804/Archi-1804` → **Settings → Actions → General → Workflow permissions**, select **"Read and write permissions,"** and save.
-2. Go to **Actions → New workflow → set up a workflow yourself**.
-3. Name the file `snake.yml` and paste this in:
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [main]
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Archi-1804
-          outputs: |
-            dist/snake.svg?color_snake=%23E8567F&color_dots=%23FCEAF0,%23F7B7A3,%23E8567F,%23A94471,%23C9A227
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-4. Commit it, then go to the **Actions** tab and click **Run workflow** to trigger it manually the first time.
-5. Once it finishes, it creates an `output` branch containing `snake.svg` — exactly the file the Contribution Snake section above already points to, so nothing else needs to change.
-
-</details>
