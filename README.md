@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1200&color=E8567F&center=true&vCenter=true&width=650&lines=Building+across+Software%2C+Data+%26+AI;React+Native+%C2%B7+FastAPI+%C2%B7+Python;Exploring+Generative+%26+Agentic+AI" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=Archi-1804&label=PROFILE+VIEWS&color=E8567F&style=for-the-badge&labelColor=A94471"/>
+
 <img src="https://img.shields.io/github/followers/Archi-1804?label=FOLLOWERS&style=for-the-badge&color=E8567F&labelColor=A94471&logo=github&logoColor=FFF8F5"/>
 
 <br/>
