@@ -98,6 +98,8 @@ I'm not chasing one narrow label — I'm building toward being a well-rounded en
 <img src="https://img.shields.io/badge/GitHub-FCEAF0?style=flat-square&logo=github&logoColor=E8567F"/>
 <img src="https://img.shields.io/badge/VS_Code-FCEAF0?style=flat-square&logo=visualstudiocode&logoColor=E8567F"/>
 <img src="https://img.shields.io/badge/Streamlit-FCEAF0?style=flat-square&logo=streamlit&logoColor=E8567F"/>
+<img src="https://img.shields.io/badge/Postman-FCEAF0?style=flat-square&logo=Postman&logoColor=E8567F"/>
+<img src="https://img.shields.io/badge/Jira-FCEAF0?style=flat-square&logo=Jira&logoColor=E8567F"/>
 </td></tr>
 </table>
 
